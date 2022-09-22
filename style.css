@@ -1,0 +1,344 @@
+.navbar-brand {
+    width: 20%;
+    /* margin: auto; */
+    text-align: right;
+    justify-content: end;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.navbar-nav {
+    width: 80%;
+    margin: auto;
+    justify-content: end;
+}
+
+/* footer css */
+.mainfooter {
+    width: 85%;
+    margin: auto;
+}
+
+.contfooter {
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hrr {
+    margin: 40px auto 40px auto;
+}
+
+.para {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.lowerpart {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newbottom {
+    margin-top: 60px;
+}
+
+.botmdivup {
+    display: flex;
+    margin-top: 40px;
+}
+
+.child1 {
+    width: 33%;
+    margin: 4px;
+}
+
+.subchildtop {
+    text-align: center;
+    align-items: center;
+}
+
+.subchildbottom {
+    text-align: center;
+    align-items: center;
+}
+
+.muiiconn {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.subchildmid {
+    text-align: center;
+    align-items: center;
+}
+
+.endfoot {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* body css */
+.maincont {
+    width: 85%;
+    margin: auto;
+}
+
+.insidemain {
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+}
+
+.headdiv {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottombox {
+    align-items: center;
+    text-align: center;
+}
+.stickpostion{
+    position: sticky;
+    top: -1px;
+    background-color: #d3d3d3;
+}
+.inputdiv {
+    width: 50%;
+}
+
+.inputbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.leftip {
+    width: 100%;
+    padding: 10px;
+}
+
+.btnip {
+    display: flex;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    margin-left: 4px;
+    background-color: #ff0088;
+    color: white;
+    height: 48px;
+    font-weight: 500;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.terms {
+    text-align: center;
+    margin: 10px auto 50px auto;
+
+}
+
+.framediv {
+    display: flex;
+    width: 80%;
+    margin: auto auto 30px auto;
+}
+
+.leftframe {
+    width: 30%;
+}
+
+.rightframe {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    height: 80vh;
+
+}
+
+.righttable {
+    margin-left: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5.px;
+}
+
+.tabledata {
+    display: flex;
+    justify-content: center;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    background-color: #5cb85c;
+    border: 1px solid #5cb85c;
+    border-radius: 2px;
+    color: white;
+
+}
+
+@media(max-width:900px) {
+    .framediv {
+        width: 93%;
+    }
+}
+
+@media(max-width:730px) {
+    .maincont {
+        width: 95%;
+    }
+}
+
+@media(max-width:650px) {
+    .framediv {
+        width: 97%;
+    }
+
+    .leftframe {
+        margin: 3px;
+        width: 40%;
+    }
+
+    .rightframe {
+        margin: 3px;
+        width: 60%;
+    }
+
+    .righttable {
+        margin-left: 0px;
+    }
+    td{
+    padding: 4px;        
+    }
+    th{
+    padding: 4px;        
+    }
+}
+
+@media(max-width:550px) {
+    .btnip {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    .framediv {
+        display: block;
+    }
+
+    .leftframe {
+        margin: auto;
+        width: 70%;
+    }
+
+    .rightframe {
+        width: 90%;
+        margin: 30px auto auto auto;
+    }
+}
+@media(max-width:350px){
+    .rightframe{
+        width: 100%;
+    }
+    .maincont{
+        width: 100%;
+    }
+}
+@media(max-width:300px){
+    .leftframe{
+        width: 90%;
+    }
+}
+/* body css end */
+
+@media(max-width:770px) {
+    .lowerpart {
+        display: block;
+    }
+
+    .leftfootcont {
+        width: 100%;
+        margin: 30px auto 30px auto;
+    }
+
+    .rightfootcont {
+        width: 100%;
+        margin: 30px auto 30px auto;
+    }
+}
+@media(max-width:660px){
+     .botmdivup{
+        display: block;
+     }
+     .child1{
+        width: 70%;
+        margin: 30px auto;
+     }
+     
+}
+/* footer css end*/
+
+@media(max-width:1360px) {
+    .navbar-brand {
+        width: 24%;
+    }
+}
+@media(max-width:1120px){
+    .navbar-brand{
+        width: 30%;
+    }
+}
+@media(max-width:910px){
+    .navbar-brand{
+        width: 40%;
+    }
+}
+@media(max-width:720px) {
+    .navbar-brand {
+        width: 46%;
+    }
+}
+@media(max-width:600px) {
+    .navbar-brand {
+        width: 50%;
+    }
+}
+
+@media(max-width:550px) {
+    .terms {
+        margin: 15px 15px 40px 15px;
+    }
+
+    .navbar-brand {
+        width: 60%;
+
+    }
+}
+@media(max-width:460px) {
+    .navbar-brand {
+        width: 63%;
+       font-size: 23px;
+
+    }
+}
+@media(max-width:400px) {
+    .navbar-brand {
+       font-size: 20px;
+    }
+}
