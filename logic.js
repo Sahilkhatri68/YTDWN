@@ -1,5 +1,4 @@
  
-
 async function clickevent() {
     let link = document.getElementsByClassName('leftip')[0].value;
     console.log(link)
@@ -21,16 +20,14 @@ async function clickevent() {
             var quality = document.getElementById("quality");
             var downloadlink = document.getElementById("downloadlink");
             var type = document.getElementById("type");
-
+            
             var cont = document.getElementsByClassName("tablebody")[0];
             var html = ``;
-         
 
-             
-            
-                
-            for (var i = 0; i <data['info'].length; i++) {
-                html =  html + ` <tr id="tableid">
+           
+
+            for (var i = 0; i < data['info'].length; i++) {
+                html = html + ` <tr id="tableid">
                 <td id="quality">  ${data['info'][i]['qualityLabel']}   </td>
                 <td id="type"> ${data['info'][i]['container']} </td>
                 <td id="hassound">${data['info'][i]['hasAudio']} </td>
@@ -43,13 +40,15 @@ async function clickevent() {
                 </td>
             </tr>`
             }
+           
+            thumbpic.src = data.thumb.high['url'];
             cont.innerHTML = html;
-            thumbpic.src=data.thumb.high['url'];
-             
+            
+           
 
 
         })
-
+       
 
 
 
